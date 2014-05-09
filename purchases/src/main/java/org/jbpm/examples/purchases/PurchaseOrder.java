@@ -26,6 +26,11 @@ static final long serialVersionUID = 1L;
     
     @org.kie.api.definition.type.Position(value = 4)
     private java.lang.Boolean requiresCFOApproval;
+    
+    @Override
+    public String toString(){
+        return ""+total;
+    }
 
     public PurchaseOrder() {
     }
