@@ -8,7 +8,7 @@ public class PurchaseOrder  implements java.io.Serializable {
 
 static final long serialVersionUID = 1L;
     
-    @org.kie.api.definition.type.Label(value = "Totale")
+    @org.kie.api.definition.type.Label(value = "Totaleeee")
     @org.kie.api.definition.type.Position(value = 3)
     private java.lang.Double total;
     
